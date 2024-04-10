@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#navbar{
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    color: aliceblue;
+    top: 5%;
+}
+
+#navbar img{
+    height: 80px;
+    width: 80px;
+}
+
+#first{
+    height: 100%;
+    width: 28%;
+    background-color: #da2c36;
+}
+
+#second{
+    height: 100%;
+    width: 64%;
+    background: url(https://3.bp.blogspot.com/-nSJIEJcrGi4/XDVpiCrVezI/AAAAAAAAx00/IVD9d-6HU7EqQuIRhtmkhd_xuHnvaNiuQCLcBGAs/s640/Rakul-Preet-Singh-Stills-At-Khakee-Movie-Audio-Launch-06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+#third{
+    height: 100%;
+    width: 8%;
+    background-color:#da2c36;
+}
+
+.text-box{
+    position: absolute;
+    left: 18%;
+    top: 28%;
+    /* transform: translate(0, 50); */
+}
+
+.text-box h1{
+     font-size: 80px;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     line-height: 75px;
+     letter-spacing: 10px;
+}
+
+.verticaltext{
+      position: absolute;
+      rotate: 90deg;
+      font-size: 50px;
+      right: -12%;
+      margin-top: -30%;
+      overflow: hidden;
+      /* color: transparent; */
+
+}
+
+.verticaltext h1{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: azure;
+    color: transparent;
+}
+
+#secondary{
+    height: 400px;
+    width: 300px;
+    background: url(https://th.bing.com/th/id/R.ac0880e853aa8f09947fa94b8f96a0a6?rik=U%2bibj87dnZ7pQg&riu=http%3a%2f%2fszcdn1.raagalahari.com%2fnov2017%2fhd%2frakul-preet-singh-khakee-audio%2frakul-preet-singh-khakee-audio35.jpg&ehk=enkWz8g8DokMjdnMu9R503pI5gNp%2briGZTGGuxBTecs%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 75%;
+
+}
+
